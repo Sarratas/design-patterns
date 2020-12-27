@@ -8,4 +8,5 @@ To present adapter pattern two user manager classes were created. Old one simula
 - getUser method return undefined instead of hardcoded string if user doesn't exist
 - setUser method uses correct arguments order
 - deleteUser is simulated with setUser method in old manager
+
 With those changes we can use old user manager packed with adapter in `testUserManager` function in `index.ts`, as well as the new manager. The results are the same, as expected.
