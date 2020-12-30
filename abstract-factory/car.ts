@@ -1,8 +1,6 @@
 abstract class Car {
     abstract getPrice();
-
     abstract getName();
-
     abstract getMaxSpeed();
 
     honk() {
